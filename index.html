@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        body {
+            background: #2c3e50;
+            transition: background-color 1s;
+        }
+
+        .container * {
+            display: block;
+            margin: 0 auto;
+            text-align: center;
+        }
+
+        .container p {
+            color: white;
+            font-size: 2rem;
+            padding-bottom: 10px;
+        }
+        .container button{
+            width: 150px;
+            height: 35px;
+            border: 0px;
+            outline: none;
+            background: white;
+            color: #2c3e50;
+            font-weight: bold;
+            box-shadow: 2px 2px 1px 0px gray;
+            cursor: pointer;
+            transition: color 1s;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <p class="color"></p>
+        <button id="new-color">New color</button>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
